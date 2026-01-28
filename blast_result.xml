@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_4614731</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>292</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>1e-05</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_4614731</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>292</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|P10247.2|</Hit_id>
+  <Hit_def>RecName: Full=H-2 class II histocompatibility antigen gamma chain; AltName: Full=Ia antigen-associated invariant chain; Short=Ii; AltName: Full=MHC class II-associated invariant chain; AltName: CD_antigen=CD74; Contains: RecName: Full=Class-II-associated invariant chain peptide; Short=CLIP [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P10247</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.88</Hsp_bit-score>
+      <Hsp_score>333</Hsp_score>
+      <Hsp_evalue>8.56454e-36</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>ARAGPRGGSNSRALKIAALTTLACLLLASQVFTAYMVFDQKQQIHTLQRSS-----ERMGKQMARSSHAMSPVKMALPMNTLPLMTDFTDEDSKKSETPLTKLQDIAVVSVEKQLMDLMQVSLPKFNETFLTNLQSLKKQINESEWQSFESWMRYWLIFHMAQQKPAGPTPQPAVFNLRMTASQIQTKCQLE-SAPGGRKIGSFKPQCDEQGHYKPMQCWHATGYCWCVDEAGTPIEGTTMRGRPDC</Hsp_qseq>
+      <Hsp_hseq>ARA-PESNCN-RGVLYTSVSVLVALLLAGQATTAYFLYQQQGRLDKLTVTSQNLQLENLRMKLPKSAKPVSPMRMATPLLMRPLSMDNMLQAPVKN---VTKYGNMTQDHVMHLLTKSGPVNYPQLKGSFPENLKHLKNSMNGLDWKVFESWMKQWLLFEMSKNSLEEKQP-------TQTPPKVLTKCQEEVSHIPDVHPGAFRPKCDENGNYMPLQCHGSTGYCWCVFPNGTEVPHTKSRGRHNC</Hsp_hseq>
+      <Hsp_midline>ARA P    N R +   +++ L  LLLA Q  TAY ++ Q+ ++  L  +S     E +  ++ +S+  +SP++MA P+   PL  D   +   K+   +TK  ++    V   L     V+ P+   +F  NL+ LK  +N  +W+ FESWM+ WL+F M++       P         T  ++ TKCQ E S       G+F+P+CDE G+Y P+QC  +TGYCWCV   GT +  T  RGR +C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>sp|P04441.3|</Hit_id>
+  <Hit_def>RecName: Full=H-2 class II histocompatibility antigen gamma chain; AltName: Full=Ia antigen-associated invariant chain; Short=Ii; Short=Ii chain; AltName: Full=MHC class II-associated invariant chain; AltName: CD_antigen=CD74; Contains: RecName: Full=Class-II-associated invariant chain peptide; Short=CLIP [Mus musculus]</Hit_def>
+  <Hit_accession>P04441</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>122.479</Hsp_bit-score>
+      <Hsp_score>306</Hsp_score>
+      <Hsp_evalue>6.63288e-32</Hsp_evalue>
+      <Hsp_query-from>34</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>SRALKIAALTTLACLLLASQVFTAYMVFDQKQQIHTLQRSS-----ERMGKQMARSSHAMSPVKMALPMNTLPLMTDFTDEDSKKSETPLTKLQDIAVVSVEKQLMDLMQVSLPKFNETFLTNLQSLKKQINESEWQSFESWMRYWLIFHMAQQKPAGPTPQPAVFNLRMTASQIQTKCQLE-SAPGGRKIGSFKPQCDEQGHYKPMQCWHATGYCWCVDEAGTPIEGTTMRGRPDC</Hsp_qseq>
+      <Hsp_hseq>SRGALYTGVSVLVALLLAGQATTAYFLYQQQGRLDKLTITSQNLQLESLRMKLPKSAKPVSQMRMATPLLMRPMSMDNMLLGPVKN---VTKYGNMTQDHVMHLLTRSGPLEYPQLKGTFPENLKHLKNSMDGVNWKIFESWMKQWLLFEMSKNSLEEKKPTEA-------PPKVLTKCQEEVSHIPAVYPGAFRPKCDENGNYLPLQCHGSTGYCWCVFPNGTEVPHTKSRGRHNC</Hsp_hseq>
+      <Hsp_midline>SR      ++ L  LLLA Q  TAY ++ Q+ ++  L  +S     E +  ++ +S+  +S ++MA P+   P+  D       K+   +TK  ++    V   L     +  P+   TF  NL+ LK  ++   W+ FESWM+ WL+F M++       P  A         ++ TKCQ E S       G+F+P+CDE G+Y P+QC  +TGYCWCV   GT +  T  RGR +C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>sp|P04233.3|</Hit_id>
+  <Hit_def>RecName: Full=HLA class II histocompatibility antigen gamma chain; AltName: Full=HLA-DR antigens-associated invariant chain; AltName: Full=Ia antigen-associated invariant chain; Short=Ii; AltName: CD_antigen=CD74; Contains: RecName: Full=Class-II-associated invariant chain peptide; Short=CLIP [Homo sapiens]</Hit_def>
+  <Hit_accession>P04233</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>117.472</Hsp_bit-score>
+      <Hsp_score>293</Hsp_score>
+      <Hsp_evalue>8.30871e-30</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>LVARAGPRGGSNSRALKIAALTTLACLLLASQVFTAYMVFDQKQQIHTLQRSS-----ERMGKQMARSSHAMSPVKMALP--MNTLPLMTDFTDEDSKKSETPLTKLQDIAVVS--VEKQLMDLMQVS-----LPKFNETFLTNLQSLKKQINESEWQSFESWMRYWLIFHMA----QQKPAGPTPQPAVFNLRMTASQIQTKCQLE-SAPGGRKIGSFKPQCDEQGHYKPMQCWHATGYCWCVDEAGTPIEGTTMRGRPDC</Hsp_qseq>
+      <Hsp_hseq>LGRRPGAPESKCSRGALYTGFSILVTLLLAGQATTAYFLYQQQGRLDKLTVTSQNLQLENLRMKLPKPPKPVSKMRMATPLLMQALPM-----------GALPQGPMQNATKYGNMTEDHVMHLLQNADPLKVYPPLKGSFPENLRHLKNTMETIDWKVFESWMHHWLLFEMSRHSLEQKPTDAPPK------------VLTKCQEEVSHIPAVHPGSFRPKCDENGNYLPLQCYGSIGYCWCVFPNGTEVPNTRSRGHHNC</Hsp_hseq>
+      <Hsp_midline>L  R G      SR       + L  LLLA Q  TAY ++ Q+ ++  L  +S     E +  ++ +    +S ++MA P  M  LP+              P   +Q+        E  +M L+Q +      P    +F  NL+ LK  +   +W+ FESWM +WL+F M+    +QKP    P+            + TKCQ E S       GSF+P+CDE G+Y P+QC+ + GYCWCV   GT +  T  RG  +C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>sp|P81439.2|</Hit_id>
+  <Hit_def>RecName: Full=Equistatin; Short=EI; AltName: Full=Cysteine proteinase inhibitor; Flags: Precursor [Actinia equina]</Hit_def>
+  <Hit_accession>P81439</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.6406</Hsp_bit-score>
+      <Hsp_score>187</Hsp_score>
+      <Hsp_evalue>2.379e-15</Hsp_evalue>
+      <Hsp_query-from>205</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>97</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>TKCQ-LESAPGGRKIGSFKPQCDEQGHYKPMQCWHATGYCWCVDEAGTPIEGTTMRGRPDCRR</Hsp_qseq>
+      <Hsp_hseq>TKCQQLQASANSGLIGAYVPQCKETGEFEEKQCWGSTGYCWCVDEDGKEILGTKIRGSPDCSR</Hsp_hseq>
+      <Hsp_midline>TKCQ L+++     IG++ PQC E G ++  QCW +TGYCWCVDE G  I GT +RG PDC R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>5.07303e-10</Hsp_evalue>
+      <Hsp_query-from>221</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>187</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>FKPQCDEQGHYKPMQCWHATGYCWCVDEAGTPIEGTTMR-GRPDC</Hsp_qseq>
+      <Hsp_hseq>FVPECFEDGSYNPVQCWPSTGYCWCVDEGGVKVPGSDVRFKRPTC</Hsp_hseq>
+      <Hsp_midline>F P+C E G Y P+QCW +TGYCWCVDE G  + G+ +R  RP C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>sp|P10493.2|</Hit_id>
+  <Hit_def>RecName: Full=Nidogen-1; Short=NID-1; AltName: Full=Entactin; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>P10493</Hit_accession>
+  <Hit_len>1245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.8626</Hsp_bit-score>
+      <Hsp_score>172</Hsp_score>
+      <Hsp_evalue>2.21953e-12</Hsp_evalue>
+      <Hsp_query-from>204</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>844</Hsp_hit-from>
+      <Hsp_hit-to>917</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>74</Hsp_align-len>
+      <Hsp_qseq>QTKCQLE-----SAPGGRKI------GSFKPQCDEQGHYKPMQCWHATGYCWCVDEAGTPIEGT-TMRG-RPDC</Hsp_qseq>
+      <Hsp_hseq>KTRCQLEREHILGAAGGADAQRPTLQGMFVPQCDEYGHYVPTQCHHSTGYCWCVDRDGRELEGSRTPPGMRPPC</Hsp_hseq>
+      <Hsp_midline>+T+CQLE      A GG         G F PQCDE GHY P QC H+TGYCWCVD  G  +EG+ T  G RP C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>sp|Q9VCR3.3|</Hit_id>
+  <Hit_def>RecName: Full=Proteoglycan Cow; AltName: Full=Carrier of wingless; Short=Carrier of wg; Flags: Precursor [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>Q9VCR3</Hit_accession>
+  <Hit_len>629</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.3142</Hsp_bit-score>
+      <Hsp_score>155</Hsp_score>
+      <Hsp_evalue>2.42341e-10</Hsp_evalue>
+      <Hsp_query-from>214</Hsp_query-from>
+      <Hsp_query-to>268</Hsp_query-to>
+      <Hsp_hit-from>544</Hsp_hit-from>
+      <Hsp_hit-to>598</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>GGRKIGSFKPQCDEQGHYKPMQCWHATGYCWCVDEAGTPIEGTTMRGRPDCRRGV</Hsp_qseq>
+      <Hsp_hseq>AGDFAGAYAPDCDIQGFYKPTQCHNSVGVCWCVDKHGVEFANTRTRGKPNCESVV</Hsp_hseq>
+      <Hsp_midline> G   G++ P CD QG YKP QC ++ G CWCVD+ G     T  RG+P+C   V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>sp|Q9ER58.1|</Hit_id>
+  <Hit_def>RecName: Full=Testican-2; AltName: Full=SPARC/osteonectin, CWCV, and Kazal-like domains proteoglycan 2; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q9ER58</Hit_accession>
+  <Hit_len>423</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.7734</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>5.90791e-10</Hsp_evalue>
+      <Hsp_query-from>216</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>327</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>RKIGSFKPQCDEQGHYKPMQCWHATGYCWCVDEAGTPIEGTTMRGRPDCRRGVPY</Hsp_qseq>
+      <Hsp_hseq>KKPGVFIPSCDEDGYYRKMQCDQSRGDCWCVDQLGLELTGTRMHGTPDCDDIVGF</Hsp_hseq>
+      <Hsp_midline>+K G F P CDE G+Y+ MQC  + G CWCVD+ G  + GT M G PDC   V +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>sp|P14543.3|</Hit_id>
+  <Hit_def>RecName: Full=Nidogen-1; Short=NID-1; AltName: Full=Entactin; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>P14543</Hit_accession>
+  <Hit_len>1247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.3882</Hsp_bit-score>
+      <Hsp_score>150</Hsp_score>
+      <Hsp_evalue>1.12706e-09</Hsp_evalue>
+      <Hsp_query-from>219</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>872</Hsp_hit-from>
+      <Hsp_hit-to>913</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>44</Hsp_align-len>
+      <Hsp_qseq>GSFKPQCDEQGHYKPMQCWHATGYCWCVDEAGTPIEGTTMRGRP</Hsp_qseq>
+      <Hsp_hseq>GLFVPECDAHGHYAPTQCHGSTGYCWCVDRDGREVEGT--RTRP</Hsp_hseq>
+      <Hsp_midline>G F P+CD  GHY P QC  +TGYCWCVD  G  +EGT  R RP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>sp|Q92563.1|</Hit_id>
+  <Hit_def>RecName: Full=Testican-2; AltName: Full=SPARC/osteonectin, CWCV, and Kazal-like domains proteoglycan 2; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q92563</Hit_accession>
+  <Hit_len>424</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.6178</Hsp_bit-score>
+      <Hsp_score>148</Hsp_score>
+      <Hsp_evalue>1.59417e-09</Hsp_evalue>
+      <Hsp_query-from>216</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>328</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>RKIGSFKPQCDEQGHYKPMQCWHATGYCWCVDEAGTPIEGTTMRGRPDCRRGVPY</Hsp_qseq>
+      <Hsp_hseq>KKPGIFIPSCDEDGYYRKMQCDQSSGDCWCVDQLGLELTGTRTHGSPDCDDIVGF</Hsp_hseq>
+      <Hsp_midline>+K G F P CDE G+Y+ MQC  ++G CWCVD+ G  + GT   G PDC   V +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>sp|P31226.3|</Hit_id>
+  <Hit_def>RecName: Full=Saxiphilin; Short=SAX; Flags: Precursor [Aquarana catesbeiana]</Hit_def>
+  <Hit_accession>P31226</Hit_accession>
+  <Hit_len>844</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>59.3066</Hsp_bit-score>
+      <Hsp_score>142</Hsp_score>
+      <Hsp_evalue>1.16472e-08</Hsp_evalue>
+      <Hsp_query-from>218</Hsp_query-from>
+      <Hsp_query-to>266</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>52</Hsp_align-len>
+      <Hsp_qseq>IGSFKPQCDEQGHYKPMQCWHATGYCWCVDEAGTPIEGTTM---RGRPDCRR</Hsp_qseq>
+      <Hsp_hseq>IGHYIPQCDEKGNYQPQQCHGSTGHCWCVNAMGEKISGTNTPPGQTRATCER</Hsp_hseq>
+      <Hsp_midline>IG + PQCDE+G+Y+P QC  +TG+CWCV+  G  I GT     + R  C R</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>2.9995e-06</Hsp_evalue>
+      <Hsp_query-from>212</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>187</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>APGG--RKIGSFKPQCDEQGHYKPMQCWHATGYCWCVDEAGTPIEGT</Hsp_qseq>
+      <Hsp_hseq>ALGGDEKVLGRFVPQCDEKGNYEPQQFHGSTGYSWCVNAIGEEIAGT</Hsp_hseq>
+      <Hsp_midline>A GG  + +G F PQCDE+G+Y+P Q   +TGY WCV+  G  I GT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>sp|Q8BKV0.2|</Hit_id>
+  <Hit_def>RecName: Full=Testican-3; AltName: Full=SPARC/osteonectin, CWCV, and Kazal-like domains proteoglycan 3; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q8BKV0</Hit_accession>
+  <Hit_len>436</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>2.84e-08</Hsp_evalue>
+      <Hsp_query-from>218</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>334</Hsp_hit-from>
+      <Hsp_hit-to>380</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>IGSFKPQCDEQGHYKPMQCWHATGYCWCVDEAGTPIEGTTMRGRPDC</Hsp_qseq>
+      <Hsp_hseq>LGQYIPLCDEDGYYKPTQCHGSVGQCWCVDRYGNEVVGSRINGVADC</Hsp_hseq>
+      <Hsp_midline>+G + P CDE G+YKP QC  + G CWCVD  G  + G+ + G  DC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>sp|Q9BQ16.2|</Hit_id>
+  <Hit_def>RecName: Full=Testican-3; AltName: Full=SPARC/osteonectin, CWCV, and Kazal-like domains proteoglycan 3; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9BQ16</Hit_accession>
+  <Hit_len>436</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>3.47013e-08</Hsp_evalue>
+      <Hsp_query-from>218</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>334</Hsp_hit-from>
+      <Hsp_hit-to>380</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>IGSFKPQCDEQGHYKPMQCWHATGYCWCVDEAGTPIEGTTMRGRPDC</Hsp_qseq>
+      <Hsp_hseq>LGQYIPLCDEDGYYKPTQCHGSVGQCWCVDRYGNEVMGSRINGVADC</Hsp_hseq>
+      <Hsp_midline>+G + P CDE G+YKP QC  + G CWCVD  G  + G+ + G  DC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>sp|Q5RD69.2|</Hit_id>
+  <Hit_def>RecName: Full=Testican-3; AltName: Full=SPARC/osteonectin, CWCV, and Kazal-like domains proteoglycan 3; Flags: Precursor [Pongo abelii]</Hit_def>
+  <Hit_accession>Q5RD69</Hit_accession>
+  <Hit_len>436</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>3.53391e-08</Hsp_evalue>
+      <Hsp_query-from>218</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>334</Hsp_hit-from>
+      <Hsp_hit-to>380</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>IGSFKPQCDEQGHYKPMQCWHATGYCWCVDEAGTPIEGTTMRGRPDC</Hsp_qseq>
+      <Hsp_hseq>LGQYIPLCDEDGYYKPTQCHGSVGQCWCVDRYGNEVMGSRINGVADC</Hsp_hseq>
+      <Hsp_midline>+G + P CDE G+YKP QC  + G CWCVD  G  + G+ + G  DC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>sp|B5DFC9.1|</Hit_id>
+  <Hit_def>RecName: Full=Nidogen-2; Short=NID-2; Flags: Precursor [Rattus norvegicus]</Hit_def>
+  <Hit_accession>B5DFC9</Hit_accession>
+  <Hit_len>1396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.7658</Hsp_bit-score>
+      <Hsp_score>138</Hsp_score>
+      <Hsp_evalue>4.21186e-08</Hsp_evalue>
+      <Hsp_query-from>177</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>943</Hsp_hit-from>
+      <Hsp_hit-to>1015</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>FHMAQQKPAGPTPQPAVFNLRMTASQIQTKCQLESAPGGRKIGSFKPQCDEQGHYKPMQCWHATGYCWCVDEAGTPIEGT</Hsp_qseq>
+      <Hsp_hseq>FHCASDT----VPEDSISGLKPCEYQ-QRYAQAQHAHAGSRI--HIPQCDDQGNFVPLQCHGSTGFCWCVDQNGHEVPGT</Hsp_hseq>
+      <Hsp_midline>FH A        P+ ++  L+    Q Q   Q + A  G +I    PQCD+QG++ P+QC  +TG+CWCVD+ G  + GT</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>4.82019e-06</Hsp_evalue>
+      <Hsp_query-from>209</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1048</Hsp_hit-from>
+      <Hsp_hit-to>1099</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>LESAPGGRKIGSFKPQCDEQGHYKPMQCWHATGYCWCVDEAGTPIEGTTMRGRP</Hsp_qseq>
+      <Hsp_hseq>LEHYGGTPRDDQYVPQCDDLGHFIPLQCHGKSDFCWCVDKDGRELPGT--RSQP</Hsp_hseq>
+      <Hsp_midline>LE   G  +   + PQCD+ GH+ P+QC   + +CWCVD+ G  + GT  R +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>sp|A0A1D0C023.1|</Hit_id>
+  <Hit_def>RecName: Full=U20-hexatoxin-Hi1a; Short=U20-HXTX-Hi1a; AltName: Full=SF25 peptide; Flags: Precursor [Hadronyche infensa]</Hit_def>
+  <Hit_accession>A0A1D0C023</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>1.06971e-07</Hsp_evalue>
+      <Hsp_query-from>218</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>IGSFKPQCDEQGHYKPMQCWHATGYCWCVDEAGTPIEGTTMRGRPDC</Hsp_qseq>
+      <Hsp_hseq>IGAFTPQCEEDGKYSKMQCHGSTGHCWCVEQVSGRNVTAPVRGRLEC</Hsp_hseq>
+      <Hsp_midline>IG+F PQC+E G Y  MQC  +TG+CWCV++         +RGR +C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>sp|Q14112.3|</Hit_id>
+  <Hit_def>RecName: Full=Nidogen-2; Short=NID-2; AltName: Full=Osteonidogen; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q14112</Hit_accession>
+  <Hit_len>1375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>1.21999e-07</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>279</Hsp_query-to>
+      <Hsp_hit-from>1006</Hsp_hit-from>
+      <Hsp_hit-to>1099</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>GPTPQPAVFNLRMTASQIQTKCQLESAPGGRKIGSFKPQCDEQGHYKPMQCWHATGYCWCVDEAGTPIEGTTMR--GRPDCRRGVPYGRMMVAPRP</Hsp_qseq>
+      <Hsp_hseq>GPSPEPT--QRPPTICERWRENLLEHYGGTPRDDQYVPQCDDLGHFIPLQCHGKSDFCWCVDKDGREVQGTRSQPGTTPACIPTVAPPMVRPTPRP</Hsp_hseq>
+      <Hsp_midline>GP+P+P       T  +   +  LE   G  +   + PQCD+ GH+ P+QC   + +CWCVD+ G  ++GT  +    P C   V    +   PRP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>2.95071e-07</Hsp_evalue>
+      <Hsp_query-from>202</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>942</Hsp_hit-from>
+      <Hsp_hit-to>994</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>QIQTKCQLESA-PGGRKIGSFKPQCDEQGHYKPMQCWHATGYCWCVDEAGTPIEGT</Hsp_qseq>
+      <Hsp_hseq>QQQRHAQAQYAYPGAR---FHIPQCDEQGNFLPLQCHGSTGFCWCVDPDGHEVPGT</Hsp_hseq>
+      <Hsp_midline>Q Q   Q + A PG R      PQCDEQG++ P+QC  +TG+CWCVD  G  + GT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>sp|Q62288.2|</Hit_id>
+  <Hit_def>RecName: Full=Testican-1; AltName: Full=Protein SPOCK; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q62288</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>1.36968e-07</Hsp_evalue>
+      <Hsp_query-from>212</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>327</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>APGGRKIGSFKPQCDEQGHYKPMQCWHATGYCWCVDEAGTPIEGTTMRGRPDC</Hsp_qseq>
+      <Hsp_hseq>SKGKSLLGAFIPRCNEEGYYKATQCHGSTGQCWCVDKYGNELAGSRKQGTVSC</Hsp_hseq>
+      <Hsp_midline>+ G   +G+F P+C+E+G+YK  QC  +TG CWCVD+ G  + G+  +G   C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>sp|O88322.2|</Hit_id>
+  <Hit_def>RecName: Full=Nidogen-2; Short=NID-2; AltName: Full=Entactin-2; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>O88322</Hit_accession>
+  <Hit_len>1403</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>1.8029e-07</Hsp_evalue>
+      <Hsp_query-from>189</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>958</Hsp_hit-from>
+      <Hsp_hit-to>1022</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>PQPAVFNLRMTASQIQTKCQLESAPGGRKIGSFKPQCDEQGHYKPMQCWHATGYCWCVDEAGTPIEGT</Hsp_qseq>
+      <Hsp_hseq>PEDSISGLKPCEYQ-QRYAQTQHAYPGSRI--HIPQCDDQGNFVPLQCHGSTGFCWCVDRNGHEVPGT</Hsp_hseq>
+      <Hsp_midline>P+ ++  L+    Q Q   Q + A  G +I    PQCD+QG++ P+QC  +TG+CWCVD  G  + GT</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.299</Hsp_bit-score>
+      <Hsp_score>129</Hsp_score>
+      <Hsp_evalue>6.2994e-07</Hsp_evalue>
+      <Hsp_query-from>209</Hsp_query-from>
+      <Hsp_query-to>265</Hsp_query-to>
+      <Hsp_hit-from>1055</Hsp_hit-from>
+      <Hsp_hit-to>1109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>LESAPGGRKIGSFKPQCDEQGHYKPMQCWHATGYCWCVDEAGTPIEGTTMRGRPDCR</Hsp_qseq>
+      <Hsp_hseq>LEHYGGTPRDDQYVPQCDDLGHFIPLQCHGKSDFCWCVDKDGRELQGT--RSQPGTR</Hsp_hseq>
+      <Hsp_midline>LE   G  +   + PQCD+ GH+ P+QC   + +CWCVD+ G  ++GT  R +P  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>sp|Q08629.1|</Hit_id>
+  <Hit_def>RecName: Full=Testican-1; AltName: Full=Protein SPOCK; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q08629</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>1.9789e-07</Hsp_evalue>
+      <Hsp_query-from>212</Hsp_query-from>
+      <Hsp_query-to>264</Hsp_query-to>
+      <Hsp_hit-from>324</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>53</Hsp_align-len>
+      <Hsp_qseq>APGGRKIGSFKPQCDEQGHYKPMQCWHATGYCWCVDEAGTPIEGTTMRGRPDC</Hsp_qseq>
+      <Hsp_hseq>SKGKSLLGAFIPRCNEEGYYKATQCHGSTGQCWCVDKYGNELAGSRKQGAVSC</Hsp_hseq>
+      <Hsp_midline>+ G   +G+F P+C+E+G+YK  QC  +TG CWCVD+ G  + G+  +G   C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>sp|Q8BLY1.2|</Hit_id>
+  <Hit_def>RecName: Full=SPARC-related modular calcium-binding protein 1; AltName: Full=SPARC-related gene protein; AltName: Full=Secreted modular calcium-binding protein 1; Short=SMOC-1; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q8BLY1</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>2.42726e-07</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>KQINESEWQSFESWMRYWLIFHMAQQKPAGPTPQPAVFNLRMTASQIQTKCQLESAPGGRKI-----GSFKPQCDEQGHYKPMQCWHATGYCWCVDEAGTPIEGTTMRGR</Hsp_qseq>
+      <Hsp_hseq>KPICASDGRSYESMCEY--------QRAKCRDPALAVVHRGRCKDAGQSKCRLERAQALEQAKKPQEAVFVPECGEDGSFTQVQCHTYTGYCWCVTPDGKPISGSSVQNK</Hsp_hseq>
+      <Hsp_midline>K I  S+ +S+ES   Y        Q+     P  AV +        Q+KC+LE A    +        F P+C E G +  +QC   TGYCWCV   G PI G++++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>sp|Q9H4F8.1|</Hit_id>
+  <Hit_def>RecName: Full=SPARC-related modular calcium-binding protein 1; AltName: Full=Secreted modular calcium-binding protein 1; Short=SMOC-1; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9H4F8</Hit_accession>
+  <Hit_len>434</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>5.57479e-07</Hsp_evalue>
+      <Hsp_query-from>157</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>KQINESEWQSFESWMRYWLIFHMAQQKPAGPTPQPAVFNLRMTASQIQTKCQLESAPGGRKI-----GSFKPQCDEQGHYKPMQCWHATGYCWCVDEAGTPIEGTTMRGR</Hsp_qseq>
+      <Hsp_hseq>KPICASDGRSYESMCEY--------QRAKCRDPTLGVVHRGRCKDAGQSKCRLERAQALEQAKKPQEAVFVPECGEDGSFTQVQCHTYTGYCWCVTPDGKPISGSSVQNK</Hsp_hseq>
+      <Hsp_midline>K I  S+ +S+ES   Y        Q+     P   V +        Q+KC+LE A    +        F P+C E G +  +QC   TGYCWCV   G PI G++++ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>sp|O08710.3|</Hit_id>
+  <Hit_def>RecName: Full=Thyroglobulin; Short=Tg; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>O08710</Hit_accession>
+  <Hit_len>2766</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.9138</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>7.34837e-07</Hsp_evalue>
+      <Hsp_query-from>205</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>300</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>TKCQLESAPGGRKIGSFKPQCDEQGHYKPMQCWHATGYCWCVDEAGTPIEGTTMRGRP</Hsp_qseq>
+      <Hsp_hseq>TKCEVEQFAATRFGHSYIPRCHRDGHYQTVQC-QTEGMCWCVDAQGREVPGTRQQGQP</Hsp_hseq>
+      <Hsp_midline>TKC++E     R   S+ P+C   GHY+ +QC    G CWCVD  G  + GT  +G+P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>sp|P01266.5|</Hit_id>
+  <Hit_def>RecName: Full=Thyroglobulin; Short=Tg; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>P01266</Hit_accession>
+  <Hit_len>2768</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>4.44671e-06</Hsp_evalue>
+      <Hsp_query-from>217</Hsp_query-from>
+      <Hsp_query-to>256</Hsp_query-to>
+      <Hsp_hit-from>1023</Hsp_hit-from>
+      <Hsp_hit-to>1062</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>40</Hsp_align-len>
+      <Hsp_qseq>KIGSFKPQCDEQGHYKPMQCWHATGYCWCVDEAGTPIEGT</Hsp_qseq>
+      <Hsp_hseq>RSGPYMPQCDAFGSWEPVQCHAGTGHCWCVDEKGGFIPGS</Hsp_hseq>
+      <Hsp_midline>+ G + PQCD  G ++P+QC   TG+CWCVDE G  I G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>485662</Statistics_db-num>
+      <Statistics_db-len>184977373</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
