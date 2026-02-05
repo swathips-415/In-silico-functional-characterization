@@ -27,7 +27,7 @@ To assign a putative biological function to the hypothetical protein A0A8S4BTT0 
 - UniProt
 
 ## Results
-BLAST analysis revealed strong homology between the hypothetical protein A0A8S4BTT0 and the MHC class II invariant chain (CD74). High alignment scores, low E-values, conserved regions, and functional domain mapping indicate that the query protein likely plays a role in antigen processing and presentation.
+BLAST analysis revealed strong homology BLAST analysis revealed strong homology between the hypothetical protein A0A8S4BTT0 and the MHC class II invariant chain (CD74). High alignment scores, low E-values, conserved regions, and functional domain mapping indicate that the query protein is likely involved in antigen processing and immune regulation.
 
 ## Repository Structure
 - `input_sequence.fasta` – Hypothetical protein sequence from UniProt  
