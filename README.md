@@ -1,7 +1,7 @@
 # In-silico Functional Characterization of a Hypothetical Protein
 
 ## Project Title
-In-silico Identification and Functional Characterization of a Hypothetical Protein (A0A8S4BTT0) from *Menidia menidia*
+In-silico Identification and Functional Characterization of a Hypothetical Protein (A0A8S4BTT0) from Menidia menidia Using Sequence Analysis and Homology-Based Annotation
 
 ## Author
 **Swathi PS**  
