@@ -5,6 +5,7 @@ In-silico Identification and Functional Characterization of a Hypothetical Prote
 **Swathi PS**  
 BS Chemistry  
 SRM Institute of Science and Technology (SRMIST)
+Email : swathips415@gmail.com
 
 ## Project Description
 Hypothetical proteins constitute a large portion of sequenced genomes, yet their biological roles remain unknown. This project aims to predict the function of a hypothetical protein from *Menidia menidia* using in-silico sequence analysis and homology-based annotation.
