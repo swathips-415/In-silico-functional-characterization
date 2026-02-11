@@ -41,6 +41,9 @@ BLAST analysis revealed strong homology between the hypothetical protein A0A8S4B
 ## Conclusion
 This study demonstrates that homology-based computational analysis can successfully predict the function of hypothetical proteins. The findings suggest that the analyzed protein may participate in immune-related processes in *Menidia menidia*.
 
+##Limitations of the Study
+The functional prediction of A0A8S4BTT0 is based entirely on in-silico homology analysis using sequence similarity and BLAST results. Although strong alignment scores and conserved regions support the predicted function, no experimental validation was performed in this study. Therefore, the assigned function remains a computational prediction and requires further experimental confirmation.
+
 ## Keywords
 Hypothetical protein, BLASTP, Functional annotation, BioPython, Menidia menidia
 
